@@ -96,6 +96,7 @@ if [ -n "$JAVA_HOME" ] ; then
 
 Please set the JAVA_HOME variable in your environment to match the
 location of your Java installation."
+
     fi
 else
     JAVACMD="java"
@@ -103,6 +104,7 @@ else
 
 Please set the JAVA_HOME variable in your environment to match the
 location of your Java installation."
+
 fi
 
 # Increase the maximum file descriptors if we can.
@@ -181,5 +183,6 @@ APP_ARGS=`save "$@"`
 
 # Collect all arguments for the java command, following the shell quoting and substitution rules
 eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
+
 
 exec "$JAVACMD" "$@"

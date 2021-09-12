@@ -6,4 +6,6 @@
     <string name="label_date">Data</string>
     <string name="label_hour">Horário</string>
     <string name="label_cancel">Cancelar</string>
+    <string name="label_tasks">Tarefas</string>
+    <string name="label_descnewtask">Nova Tarefa</string>
 </resources>

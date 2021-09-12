@@ -120,6 +120,4 @@
         app:layout_constraintEnd_toEndOf="@id/guide_final"
         app:layout_constraintStart_toEndOf="@id/btn_addtask"
         app:layout_constraintTop_toTopOf="@id/btn_addtask"/>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

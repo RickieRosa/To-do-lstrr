@@ -49,6 +49,7 @@ class TaskListAdapter : ListAdapter<Task, TaskListAdapter.TaskViewHolder>(DiffCa
                 return@setOnMenuItemClickListener true
             }
             popupMenu.show()
+
         }
 
     }

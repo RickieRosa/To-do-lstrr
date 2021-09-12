@@ -10,4 +10,5 @@
     <string name="label_descnewtask">Nova Tarefa</string>
     <string name="label_edit">Editar</string>
     <string name="label_delete">Delete</string>
+    <string name="label_textEmpty">Estamos com\na agenda livre!!</string>
 </resources>

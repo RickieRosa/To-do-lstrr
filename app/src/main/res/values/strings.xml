@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">To-do-lstrr</string>
+    <string name="label_newtask">Criar Tarefa</string>
+    <string name="label_title">Título</string>
+    <string name="label_desc">Descreva a tarefa...</string>
+    <string name="label_date">Data</string>
+    <string name="label_hour">Horário</string>
+    <string name="label_cancel">Cancelar</string>
 </resources>

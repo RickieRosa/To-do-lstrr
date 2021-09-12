@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import br.com.chaos.to_do_lstrr.databinding.ActivityMainBinding
 import br.com.chaos.to_do_lstrr.datasource.TaskDataSource
 
@@ -46,7 +47,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updateList() {
-        adapter.submitList(TaskDataSource.getList())
+        val list = TaskDataSource.getList()
+        binding.incEmptystate.emptyStateL.visibility = if(list.isEmpty()) View.VISIBLE
+        else View.GONE
+
+        adapter.submitList(list)
+
     }
 
     companion object {
